@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Política de Privacidad - LeidiPlayer</title>
+  <style>
+    :root {
+      --text: #202124;
+      --subtle: #5f6368;
+      --border: #e0e0e0;
+      --bg: #ffffff;
+      --link: #1a73e8;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.65;
+    }
+
+    .page {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 48px 24px 64px;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 400;
+      margin: 0 0 10px;
+      letter-spacing: -0.3px;
+    }
+
+    .updated {
+      color: var(--subtle);
+      font-size: 0.95rem;
+      margin-bottom: 36px;
+    }
+
+    h2 {
+      font-size: 1.25rem;
+      font-weight: 500;
+      margin: 40px 0 14px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      margin: 24px 0 10px;
+    }
+
+    p {
+      margin: 0 0 16px;
+    }
+
+    ul {
+      margin: 0 0 18px 22px;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    a {
+      color: var(--link);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .contact {
+      margin-top: 8px;
+    }
+
+    @media (max-width: 600px) {
+      .page {
+        padding: 32px 18px 48px;
+      }
+
+      h1 {
+        font-size: 1.7rem;
+      }
+
+      h2 {
+        font-size: 1.15rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <h1>Política de Privacidad - LeidiPlayer</h1>
+    <p class="updated">Última actualización: 9 de marzo de 2026</p>
+
+    <p>
+      LeidiPlayer respeta la privacidad de los usuarios. Esta aplicación ha sido diseñada
+      para reproducir archivos de audio almacenados localmente en el dispositivo y no
+      recopila datos personales directamente.
+    </p>
+
+    <h2>Información que utiliza la aplicación</h2>
+    <p>
+      La aplicación solicita acceso a los archivos de audio del dispositivo mediante los
+      permisos del sistema:
+    </p>
+    <ul>
+      <li><strong>READ_MEDIA_AUDIO</strong> (Android 13 o superior)</li>
+      <li><strong>READ_EXTERNAL_STORAGE</strong> (Android 12 o inferior)</li>
+    </ul>
+
+    <p>Estos permisos se utilizan exclusivamente para:</p>
+    <ul>
+      <li>Detectar archivos de música almacenados en el dispositivo.</li>
+      <li>Permitir la reproducción de dichos archivos dentro de la aplicación.</li>
+    </ul>
+
+    <p>
+      La aplicación no sube ni comparte estos archivos con servidores externos.
+    </p>
+
+    <h2>Servicios de terceros</h2>
+    <p>
+      LeidiPlayer utiliza servicios de Google Firebase para mejorar su funcionamiento.
+    </p>
+
+    <h3>Firebase Analytics</h3>
+    <p>
+      Se utiliza para recopilar información anónima sobre el uso de la aplicación, como:
+    </p>
+    <ul>
+      <li>Interacción con pantallas</li>
+      <li>Eventos de uso</li>
+      <li>Estadísticas generales</li>
+    </ul>
+    <p>
+      Esta información se utiliza únicamente para mejorar la experiencia del usuario.
+    </p>
+
+    <h3>Firebase Crashlytics</h3>
+    <p>
+      Se utiliza para recopilar informes automáticos de errores cuando la aplicación falla.
+      Estos informes ayudan a identificar y solucionar problemas técnicos.
+    </p>
+
+    <h3>Firebase Performance Monitoring</h3>
+    <p>
+      Se utiliza para medir el rendimiento de la aplicación, incluyendo tiempos de carga y
+      estabilidad. Estos servicios pueden recopilar información técnica como:
+    </p>
+    <ul>
+      <li>Modelo del dispositivo</li>
+      <li>Versión del sistema operativo</li>
+      <li>Información sobre el rendimiento de la aplicación</li>
+    </ul>
+
+    <p>
+      Para más información puedes consultar la política de privacidad de Google:
+      <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">
+        https://policies.google.com/privacy
+      </a>
+    </p>
+
+    <h2>Almacenamiento de datos</h2>
+    <p>
+      LeidiPlayer no almacena datos personales en servidores externos. Toda la información
+      relacionada con la música permanece en el dispositivo del usuario.
+    </p>
+
+    <h2>Cambios en esta política</h2>
+    <p>
+      Esta política de privacidad puede actualizarse en el futuro. Cualquier cambio será
+      reflejado en esta misma página.
+    </p>
+
+    <h2>Contacto</h2>
+    <p class="contact">
+      Si tienes preguntas sobre esta política de privacidad, puedes contactar con el desarrollador en
+      <a href="mailto:contacto@leidiplayer.app">contacto@leidiplayer.app</a>.
+    </p>
+  </main>
+</body>
+</html>
